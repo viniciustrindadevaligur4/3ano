@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f7; /* Azul bebê */
+    color: #333;
+}
+
+header {
+    background-color: #5cb85c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.destaque {
+    background-color: #d9edf7;
+    color: #31708f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #31708f;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(180, 19, 19, 0.1);
+}
+
+.conteudo h2 {
+    color: #5cb85c;
+    margin-top: 0;
+}
+
+.imagem-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.imagem-paragrafo {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    overflow: auto; /* Para que o texto envolva a imagem */
+    padding-top: 5px; /* Ajuste o espaçamento superior conforme necessário */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
